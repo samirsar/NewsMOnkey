@@ -129,6 +129,7 @@ export class News extends Component {
     
      };
   render() {
+    console.log("it is latest commit");
     const article=this.state.items.articles;
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     // this commented line is another type of using map key
@@ -151,7 +152,9 @@ export class News extends Component {
 
     return (
       <div>
+        
         <div className="container  ">
+        
 
           <div className="row">
            
