@@ -130,6 +130,7 @@ export class News extends Component {
      };
   render() {
     console.log("it is third last latest  commit");
+    console.log("what is your view");
     const article=this.state.items.articles;
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     // this commented line is another type of using map key
